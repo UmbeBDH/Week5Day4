@@ -25,8 +25,8 @@ html{
 
 #testoAlternato{
     border: 2px solid grey;
-    width: 780px;
-    height: 180px;
+    width: 820px;
+    height:280px;
     padding: 50px;
     display: flex;
     align-items: center;
@@ -44,7 +44,7 @@ html{
     position: relative;
 }
 
-parole i{
+.parole i{
     width: 300px;
     margin-left: 20px;
     position: absolute;
@@ -55,28 +55,28 @@ parole i{
 }
 
 @keyframes rotazione{
-   0%{
+   0% { 
     opacity: 0;
     transform: translateY(-50px)
    }
 
-   2%{
-    opacity: 0;
+   2% {
+    opacity: 2;
     transform: translateY(0px)
    }
 
 
-   20%{
-    opacity: 0;
+   20% {
+    opacity: 3;
     transform: translateY(0px)
    }
    
-   80%{
+   80% {
     opacity: 0;
     transform: translateY(50px)
    }
 
-   100%{
+   100% {
     opacity: 0;
     transform: translateY(50px)
    }
@@ -94,6 +94,3 @@ parole i{
     animation-delay: 4s;
 }
 
-.parole i:nth-child(4){
-    animation-delay: 6s;
-}
